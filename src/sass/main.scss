@@ -6,7 +6,7 @@
 
 
 .app {
-
+	font-family: arial;
 	width: 100%;
 
 
@@ -15,15 +15,21 @@
 
 
 .myBoxes {
-	text-align: center;
+	width: 600px;
+	height: 400px;
+	display: inline-block;
+	border: 2px solid #00c6d6;
+	position: relative;
+	overflow: hidden;
 
 
 }
 
 
 .box1 {
-	
-	width: 600px;
+
+	text-align: center;
+	background-color: white;
 	
 }
 
@@ -31,10 +37,79 @@
 
 .box2 {
 
-	width: 600px;
+	text-align: center;
+	background-color: white;
+	position: absolute;
+	top: calc(100% - 102px);
 
 }
 
+
+.box3 {
+
+	text-align: center;
+	background-color: white;
+	position: absolute;
+	top: calc(100% - 50px);
+
+}
+
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #00c6d6;
+	padding: 15px;
+	text-align: left;
+
+}
+
+
+p {
+	background-color: white;
+	height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: gray;
+	// display: none;
+}
+
+h2:hover {
+	background:#00DAEC;
+	// height: 600px;
+}
+
+
+
+h2 a {
+	text-decoration: none;
+	color: white;
+	font-weight: lighter;
+
+}
+
+
+
+////////////transitions////////////
+
+
+.updown {
+	top: calc(0% + 50px);
+
+}
+
+.updown2 {
+	top: calc(0% + 100px);
+
+}
+
+
+
+
+// .box2{
+// 	transition: position 1s ease;
+// 	bottom: calc(100% - 50px);
+// }
 
 
 
