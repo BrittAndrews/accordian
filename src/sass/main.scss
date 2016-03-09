@@ -41,6 +41,10 @@
 	background-color: white;
 	position: absolute;
 	top: calc(100% - 102px);
+	transition-property: top;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
 
 }
 
@@ -51,6 +55,10 @@
 	background-color: white;
 	position: absolute;
 	top: calc(100% - 50px);
+	transition-property: top;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
 
 }
 
@@ -95,31 +103,20 @@ h2 a {
 
 .updown {
 	top: calc(0% + 50px);
-
+	
 }
+
+
+
 
 .updown2 {
 	top: calc(0% + 100px);
-
+	
 }
 
 
 
 
-// .box2{
-// 	transition: position 1s ease;
-// 	bottom: calc(100% - 50px);
-// }
-
-
-
-///////////////////////////////////
-
-
-
-.hardmode{ 
-
-}
 
 
 
